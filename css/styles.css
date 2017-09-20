@@ -197,5 +197,26 @@ figure {
 }
 
 @media (min-width:768px){
-  
+
+  .site-nav{
+    width:10%;
+    top:0px;
+  }
+
+  main{
+    margin-left: 10%;
+  }
+
+  .site-nav-list{
+    width:100%;
+  }
+
+  .site-nav-item{
+    float:none;
+    width:100%;
+    padding:0px;
+    margin:0px;
+  }
+
+
 }
