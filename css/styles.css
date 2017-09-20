@@ -250,9 +250,43 @@ figure {
 
 @media (min-width:992px){
 
+  .site-header{
+     position: absolute;
+     top: 0;
+   }
+   .movie-overview {
+     display: none;
+   }
 
-  
+   article:first-child .movie-poster {
+     display: none;
+   }
 
+   article:nth-child(n+2) .movie-backdrop {
+     display: none;
+   }
+
+   article:nth-child(n+2) {
+     width: 33%;
+     display: inline-block;
+   }
+
+   article:first-child .movie-overview {
+     display: block;
+   }
+   .movie-poster {
+     display: block;
+   }
+
+
+   article:nth-child(n+2){
+       width: 33.4%;
+       margin: 0 0 -4.3px -3.2px;
+   }
+
+   body{
+     padding-bottom: 0px;
+   }
 
 
 }
