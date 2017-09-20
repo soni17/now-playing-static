@@ -234,4 +234,16 @@ figure {
      display: block;
    }
 
+   .site-footer {
+      background: #000;
+      color: #fff;
+    }
+    .about {
+      display: inline-block;
+    }
+    .footer-nav {
+      display: inline-block;
+    }
+
+
 }
