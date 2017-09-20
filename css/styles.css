@@ -230,6 +230,8 @@ figure {
     position:static;
   }
 
-
+  .movie-overview {
+     display: block;
+   }
 
 }
