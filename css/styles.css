@@ -201,6 +201,9 @@ figure {
   .site-nav{
     width:10%;
     top:0px;
+    display:inline-block;
+    z-index: 1;
+    padding-top:90px;
   }
 
   main{
@@ -215,5 +218,18 @@ figure {
     float:none;
     width:100%;
   }
+
+  .site-logo{
+    z-index: 1000;
+    width:65px;
+    left:10px;
+  }
+
+  .site-header{
+    display:inline-block;
+    position:static;
+  }
+
+
 
 }
