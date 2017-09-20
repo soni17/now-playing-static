@@ -199,7 +199,7 @@ figure {
 @media (min-width:768px){
 
   .site-nav{
-    width:10%;
+    width:80px;
     top:0px;
     display:inline-block;
     z-index: 1;
@@ -207,7 +207,7 @@ figure {
   }
 
   main{
-    margin-left: 10%;
+    margin-left: 80px;
   }
 
   .site-nav-list{
@@ -223,6 +223,7 @@ figure {
     z-index: 1000;
     width:65px;
     left:10px;
+    top:15px;
   }
 
   .site-header{
